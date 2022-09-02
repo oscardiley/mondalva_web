@@ -1,0 +1,14 @@
+@import url(./global-desktop.css);
+
+:root {
+    --base: #FFE5D9;
+    --primary: #FEC89A;
+    --secondary: #FEC5BB;
+    --green-bg: #EBF0EF;
+    --pink-bg: #F8EDEB;
+    --blue-bg: #DEE2E3;
+    --complementary: #FAE1DD;
+    --text-primary: #6C6C6C;
+    --text-secondary: #E3A36D;
+    --text-complementary: #879A86;
+  }
