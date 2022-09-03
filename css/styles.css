@@ -1,14 +1,129 @@
 @import url(./global-desktop.css);
 
 :root {
-    --base: #FFE5D9;
-    --primary: #FEC89A;
-    --secondary: #FEC5BB;
-    --green-bg: #EBF0EF;
-    --pink-bg: #F8EDEB;
-    --blue-bg: #DEE2E3;
-    --complementary: #FAE1DD;
-    --text-primary: #6C6C6C;
-    --text-secondary: #E3A36D;
-    --text-complementary: #879A86;
-  }
+  --base: #ffe5d9;
+  --primary: #fec89a;
+  --secondary: #fec5bb;
+  --green-bg: #ebf0ef;
+  --pink-bg: #f8edeb;
+  --blue-bg: #dee2e3;
+  --complementary: #fae1dd;
+  --text-primary: #6c6c6c;
+  --text-secondary: #e3a36d;
+  --text-complementary: #879a86;
+  --input-form: #d8e2dc;
+}
+
+* {
+  font-family: Lato, sans-serif, Arial, Helvetica;
+}
+
+.navbar-mond {
+  height: 80px;
+  padding: 30px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-mond {
+  width: 15rem;
+}
+
+.nav-entries {
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.nav-entries a {
+  display: inline;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 5rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.nav-entries a:hover {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--text-secondary);
+  border-top: 1px solid var(--text-secondary);
+}
+
+.header-mond {
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/header-mondalva-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+.hero-container {
+  width: 50%;
+  justify-content: center;
+  float: left;
+}
+
+.hero-text {
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--secondary);
+  margin-bottom: 2rem;
+}
+
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #6c6c6c;
+}
+
+.action-buttons {
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+#about {
+  width: 100%;
+  height: 380px;
+  background-image: url("../assets/about-mondalva.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 60px;
+}
+
+.about-image {
+}
+
+.about-text {
+  width: 50%;
+  float: right;
+}
+
+.about-text h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.about-more a {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: var(--text-primary);
+}
+
+.about-more i {
+  color: var(--text-primary);
+  margin-left: 5px;
+}
